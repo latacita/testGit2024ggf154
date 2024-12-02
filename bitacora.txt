@@ -8,3 +8,14 @@
 ====== ============================ ================================
 01	clone
 03	add + commit
+04	branch PrimeraRama + checkout
+05	add + commit
+06	branch SegundaRama + checkout
+07	add + commit
+08	push origin SegundaRama
+09	checkout master
+17	checkout PrimeraRama
+18	merge SegundaRama		Da conflicto, se queda con lo de la PrimeraRama
+19	checkout master
+20	stash apply
+21	add + commit
