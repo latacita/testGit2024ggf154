@@ -10,3 +10,9 @@
 03	add + commit
 04	branch PrimeraRama + checkout
 05	add + commit
+06	branch SegundaRama + checkout
+07	add + commit
+08	push origin SegundaRama
+09	checkout master
+11	stash + checkout PrimeraRama
+12	add + commit
