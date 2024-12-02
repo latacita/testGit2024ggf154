@@ -12,3 +12,15 @@
 05	add + commit
 06	branch SegundaRama + checkout
 07	add + commit
+08	push origin SegundaRama
+09	checkout master
+11	stash + checkout PrimeraRama
+12	add + commit
+13	checkout SegundaRama
+14	Recursiva			El último commit de PrimeraRama es "Paso 12",
+					que no está en SegundaRama
+
+15	Fast-Forward			El último commit de Master es "Paso 03",
+					que está dentro de PrimeraRama
+
+16	add + commit
